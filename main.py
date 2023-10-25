@@ -7,9 +7,9 @@ iate_json_sources_without_ids = 'files/output/sources.json'
 iate_json_sources_with_ids = ''
 iate_json_concepts_with_word_ids_and_sources_ids = ''
 iate_ids_of_added_concepts = ''
-
+dataset = 'kala'
 # Parse Excel
-parse_excel.excel_to_json(iate_excel, iate_json_concepts, iate_json_sources_without_ids)
+parse_excel.excel_to_json(iate_excel, iate_json_concepts, iate_json_sources_without_ids, dataset)
 
 # Import sources and add their ID-s to sources
 
